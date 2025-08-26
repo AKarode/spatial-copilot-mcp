@@ -1,0 +1,1 @@
+# spatial-copilot-mcp
