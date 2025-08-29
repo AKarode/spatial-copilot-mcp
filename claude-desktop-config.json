@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "spatial-copilot": {
+      "command": "node",
+      "args": ["/Users/anishnutakki/spatial-copilot-mcp/dist/index.js"],
+      "env": {
+        "GOOGLE_MAPS_API_KEY": "AIzaSyBYchoXeTBafdZgAlm7Vx60e238AHDW-Mk"
+      }
+    }
+  }
+} 

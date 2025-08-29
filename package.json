@@ -1,0 +1,28 @@
+{
+  "name": "spatial-copilot-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for trip planning with Google Maps integration",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "@googlemaps/google-maps-services-js": "^3.3.42",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "tsx": "^4.6.0",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.0"
+  },
+  "keywords": ["mcp", "google-maps", "trip-planning", "claude"],
+  "author": "Your Name",
+  "license": "MIT"
+} 
